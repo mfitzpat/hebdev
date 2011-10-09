@@ -60,6 +60,8 @@ ul  {
 
 .subtab > div   {
     border: 3px solid #ee2d23;
+    overflow: hidden;
+    white-space: normal;
 }
 
 #wrapper    {

@@ -24,6 +24,7 @@ public class User_Customer extends Model
     private static int ID = 0;
     
    public static void addCustomer(User user, Customer customer)
+
    {
        user.customerID.add(customer.customerID);
        customer.userID = userID;
