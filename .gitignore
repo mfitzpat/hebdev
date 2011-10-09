@@ -1,5 +1,7 @@
-.gitignore
-.DS_Store/
-test-result/
-tmp/
 nbproject/
+.gitignore
+tmp/
+.DS_Store
+public/.DS_Store
+build.xml
+test-result/
