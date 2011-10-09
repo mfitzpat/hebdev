@@ -35,6 +35,7 @@ public class Customer extends Model
         this.lastName = lastName;
         this.birthday = birthday;
         this.gender = gender;
+        this.orderCount = 0;
     }
     
     public void setLastPurchaseDate(Date lastPurchaseDate)

@@ -1,5 +1,5 @@
-07 Oct 2011 15:59:21,590 INFO  ~ Starting /Users/William/Documents/NetBeansProjects/HEB_Project_Java
-07 Oct 2011 15:59:22,211 WARN  ~ You're running Play! in DEV mode
-07 Oct 2011 15:59:22,324 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
-07 Oct 2011 15:59:37,277 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
-07 Oct 2011 15:59:37,964 INFO  ~ Application 'HEB_Project_Java' is now started !
+09 Oct 2011 02:28:26,527 INFO  ~ Starting /Users/mfitzpat/Desktop/hebdev
+09 Oct 2011 02:28:28,222 WARN  ~ You're running Play! in DEV mode
+09 Oct 2011 02:28:28,428 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+09 Oct 2011 02:32:34,861 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+09 Oct 2011 02:32:35,794 INFO  ~ Application 'HEB_Project_Java' is now started !
