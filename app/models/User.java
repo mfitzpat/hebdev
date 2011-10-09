@@ -36,15 +36,12 @@ public class User extends Model
         this.firstName = firstName;
         this.lastName = lastName;
         customerID = new ArrayList();
+        
+        Customer customer = new Customer(User_Customer.updateID(), firstName, lastName, userID);
     }
     
     public void updateLastLogin(Date lastLogin)
     {
         this.lastLogin = lastLogin;
-    }
-    
-    public void addNewCustomertoUser(int customerID)
-    {
-        
     }
 }

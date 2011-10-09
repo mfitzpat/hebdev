@@ -39,6 +39,14 @@ public class Customer extends Model
         this.orderCount = 0;
     }
     
+    public Customer(int customerID, String firstName, String lastName, int userID)
+    {
+        this.customerID = customerID;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.userID = userID;
+    }
+    
     public void setLastPurchaseDate(Date lastPurchaseDate)
     {
         this.lastPurchaseDate = lastPurchaseDate;
