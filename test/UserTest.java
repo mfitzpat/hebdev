@@ -30,7 +30,6 @@ public class UserTest extends UnitTest{
     public void newUser_spawnsNewCustomer(){
         User savedUser = new User(5, "mfitzpat", "password", "Matt", "Fitz");
         savedUser.save();
-        System.out.println("CustomerId Stored is this: " + savedUser.customerID.get(0));
         User retrievedUser = User.findById(savedUser.id);
         assertEquals(savedUser.customerID.get(0), retrievedUser.customerID.get(0));
     }
