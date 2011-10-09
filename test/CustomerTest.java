@@ -5,7 +5,6 @@ import models.*;
 
 public class CustomerTest extends UnitTest 
 {
-   
     
     @Test
     public void createandRetrieveCustomer_returnsNotNull()
