@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<testsuite failures="0" time="0.002" errors="0" skipped="0" tests="3" name="CustomerTest">
+  <testcase classname="CustomerTest" name="createandRetrieveCustomer_returnsNotNull" time="0.002">
+      </testcase>
+  <testcase classname="CustomerTest" name="newInstanceOfCustomer_defaultsToOrderCountOfZero" time="0">
+      </testcase>
+  <testcase classname="CustomerTest" name="updateOrderCount_increasesOrderCountByOne" time="0">
+      </testcase>
+</testsuite>
