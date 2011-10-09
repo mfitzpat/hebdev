@@ -4,6 +4,7 @@
  */
 package models;
 
+import java.util.ArrayList;
 import javax.persistence.Entity;
 import play.db.jpa.Model;
 import java.util.Date;
@@ -38,5 +39,5 @@ public class User extends Model
     public void updateLastLogin(Date lastLogin)
     {
         this.lastLogin = lastLogin;
-    }   
+    }
 }
