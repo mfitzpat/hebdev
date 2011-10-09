@@ -22,7 +22,6 @@ public class User_Customer extends Model
 {
     public static int userID;
     private static int ID = 0;
-    public static ArrayList<Integer> customerID = new ArrayList();
     
    public static void addNewCustomertoUser(User user, Customer customer)
    {
