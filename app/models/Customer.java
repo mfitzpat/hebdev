@@ -25,6 +25,7 @@ public class Customer extends Model
     public Date birthday;
     public Date lastPurchaseDate;
     public char gender;
+    public int userID;
     
     
     public Customer(int customerID, String firstName, String lastName, 
@@ -36,6 +37,14 @@ public class Customer extends Model
         this.birthday = birthday;
         this.gender = gender;
         this.orderCount = 0;
+    }
+    
+    public Customer(int customerID, String firstName, String lastName, int userID)
+    {
+        this.customerID = customerID;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.userID = userID;
     }
     
     public void setLastPurchaseDate(Date lastPurchaseDate)

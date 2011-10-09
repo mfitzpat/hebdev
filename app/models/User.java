@@ -4,6 +4,7 @@
  */
 package models;
 
+import java.util.ArrayList;
 import javax.persistence.Entity;
 import play.db.jpa.Model;
 import java.util.Date;
@@ -24,6 +25,7 @@ public class User extends Model
     public String firstName;
     public String lastName;
     public Date lastLogin;
+    public ArrayList customerID;
     
     public User(int userID, String emailAddress, String password, 
     String firstName, String lastName)
@@ -33,10 +35,13 @@ public class User extends Model
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
+        customerID = new ArrayList();
+        
+        Customer customer = new Customer(User_Customer.updateID(), firstName, lastName, userID);
     }
     
     public void updateLastLogin(Date lastLogin)
     {
         this.lastLogin = lastLogin;
-    }   
+    }
 }
