@@ -23,7 +23,7 @@ public class User_Customer extends Model
     public static int userID;
     private static int ID = 0;
     
-   public static void addNewCustomertoUser(User user, Customer customer)
+   public static void addCustomertoUser(User user, Customer customer)
    {
        user.customerID.add(customer.customerID);
        customer.userID = userID;
