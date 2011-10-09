@@ -25,6 +25,7 @@ public class User extends Model
     public String firstName;
     public String lastName;
     public Date lastLogin;
+    public ArrayList customerID;
     
     public User(int userID, String emailAddress, String password, 
     String firstName, String lastName)
@@ -34,10 +35,16 @@ public class User extends Model
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
+        customerID = new ArrayList();
     }
     
     public void updateLastLogin(Date lastLogin)
     {
         this.lastLogin = lastLogin;
+    }
+    
+    public void addNewCustomertoUser(int customerID)
+    {
+        
     }
 }

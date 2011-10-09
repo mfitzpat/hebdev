@@ -25,6 +25,7 @@ public class Customer extends Model
     public Date birthday;
     public Date lastPurchaseDate;
     public char gender;
+    public int userID;
     
     
     public Customer(int customerID, String firstName, String lastName, 
