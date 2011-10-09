@@ -1,4 +1,5 @@
 nbproject/
+<<<<<<< HEAD
 .gitignore
 tmp/
 .DS_Store
@@ -76,3 +77,9 @@ tmp/
 
     -->
 </project>
+=======
+.DS_Store/
+tmp/
+.gitignore
+>>>>>>> 3660c0b271ecdf8e23b582bd89a5ae5053fc13a6
+.gitignore
