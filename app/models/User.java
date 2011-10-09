@@ -25,7 +25,7 @@ public class User extends Model
     public String firstName;
     public String lastName;
     public Date lastLogin;
-    public ArrayList customerID;
+    public ArrayList<Integer> customerID;
     
     public User(int userID, String emailAddress, String password, 
     String firstName, String lastName)
@@ -38,6 +38,7 @@ public class User extends Model
         customerID = new ArrayList();
         
         Customer customer = new Customer(User_Customer.updateID(), firstName, lastName, userID);
+        customerID.add(customer.customerID);
     }
     
     public void updateLastLogin(Date lastLogin)
