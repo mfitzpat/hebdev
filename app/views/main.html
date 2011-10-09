@@ -5,11 +5,13 @@
         <title>#{get 'title' /}</title>
         <meta charset="${_response_encoding}">
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/960.gs.css'}">
+        <link type="text/css" rel="stylehseet" media="screen" href="@{'/public/stylesheets/jquery.ui.tabs.css'}">
 		#{get 'moreStyles' /}
 		
 		#{set 'moreScripts'}
 		<script src="@{'/public/javascripts/jquery-1.6.4.js'}" type="text/javascript"></script>
-		<script src="@{'/public/javascripts/jquery-ui/js/jquery-ui-1.8.16.custom.min.js'}" 
+		<script src="@{'/public/javascripts/jquery-ui-1.8.16.custom.min.js'}" 
 			type="text/javascript"></script>
 		<!--
 		<script src="@{'/public/javascripts/scriptaculous/lib/prototype.js'}" 
